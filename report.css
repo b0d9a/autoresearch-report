@@ -110,6 +110,10 @@ details p { margin-block: .4rem; overflow-wrap: anywhere; }
 .steps li { padding-inline-start: .35rem; }
 .steps li + li { margin-top: .9rem; }
 .steps li::marker { color: var(--muted); font-weight: 600; }
+.step-result { margin-top: .3rem; color: var(--muted); font-size: .94rem; }
+.section-intro { margin-bottom: .85rem; color: var(--muted); }
+.questions { max-width: 72ch; margin-block: .55rem .7rem; padding-inline-start: 1.3rem; }
+.questions li + li { margin-top: .35rem; }
 footer { border-top: 1px solid var(--line); padding-block: .8rem 1.5rem; color: var(--muted); font-size: .9rem; }
 
 @media (max-width: 36rem) {
